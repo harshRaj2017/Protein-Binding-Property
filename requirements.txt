@@ -1,9 +1,10 @@
 streamlit==1.31.0
-pandas==2.0.3
-numpy==1.24.3
-scikit-learn==1.3.0
-rdkit-pypi==2022.9.5
-matplotlib==3.7.2
-seaborn==0.12.2
-Pillow==10.0.0
+pandas==2.1.4    # Newer version, should be fine for 3.11
+numpy==1.26.4    # Compatible with 3.11
+scikit-learn==1.4.1 # Compatible with 3.11
+rdkit-pypi==2023.9.6 # A more recent RDKit version which may have better 3.11 support, or
+# you can leave it at 2022.9.5 if you prefer, but a newer version is often better.
+matplotlib==3.8.3
+seaborn==0.13.2
+Pillow==10.2.0
 xgboost==2.0.3
