@@ -1,0 +1,20 @@
+name: ppb_predictor
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  # Core Data Science / ML
+  - pandas=2.1.4
+  - numpy=1.26.4
+  - scikit-learn=1.4.1
+  - xgboost=2.0.3
+  # Chemistry specific, MUST be installed via conda-forge
+  - rdkit=2023.09.6
+  # Other pip dependencies (RDKit is best installed via Conda, so we list pip packages here)
+  - pip
+  - pip:
+    - streamlit==1.31.0
+    - matplotlib==3.8.3
+    - seaborn==0.13.2
+    - Pillow==10.2.0
