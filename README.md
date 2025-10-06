@@ -8,7 +8,7 @@ QSAR Model for predicting drug plasma protein binding.
 - **Training Data:** 1,614 compounds (AstraZeneca dataset)
 
 ## 🚀 Live Demo
-[Visit the app](https://your-app-url.streamlit.app)
+[Visit the app]([https://your-app-url.streamlit.app](https://protein-binding-property-harsh.streamlit.app/))
 
 ## 📊 Features
 - Single compound prediction
